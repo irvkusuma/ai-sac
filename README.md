@@ -20,8 +20,8 @@ AI-powered analytics platform for SAP Analytics Cloud.
 Clone the repository and enter the project directory:
 
 ```bash
-git clone https://github.com/irvkusuma/ai-sac.git ~/Projects/ai-sac
-cd ~/Projects/ai-sac
+git clone https://github.com/irvkusuma/ai-sac.git "$HOME/Projects/ai-sac"
+cd "$HOME/Projects/ai-sac"
 ```
 
 Restore `.env` from its encrypted local backup. Replace the example path with the actual location of that backup. The `.env` file contains credentials and is intentionally not stored in GitHub.
